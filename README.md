@@ -29,7 +29,11 @@ Hầu hết ổ cứng cơ thường có nhiều lớp đĩa từ.
 
 ![image](https://user-images.githubusercontent.com/32956424/117912489-d6843c00-b309-11eb-951a-aa9f5896537e.png)
 
-Các đĩa từ đồng trục và quay cùng tốc độ với nhau. Dữ liệu được đọc/ghi trên bề mặt đĩa (gồm mặt trên và mặt dưới), thông qua **Read/Write heads** - điều khiển bởi actuator assembly 
+Các đĩa từ đồng trục và quay cùng tốc độ với nhau. Dữ liệu được đọc/ghi trên bề mặt đĩa (gồm mặt trên và mặt dưới), thông qua **Read/Write heads** - điều khiển bởi **actuator assembly**
+
+#### Read/Write heads
+
+Còn được gọi là đầu đọc ghi,
 
 
 
