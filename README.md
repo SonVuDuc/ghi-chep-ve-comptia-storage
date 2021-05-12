@@ -19,3 +19,7 @@ Disk, solid-state và tape đều thuộc kiểu **persistent storage** hay **no
  * Actuator assembly
  * Spindle motor
 
+![image](https://user-images.githubusercontent.com/32956424/117912186-3dedbc00-b309-11eb-9b1d-98a599c7d533.png)
+
+##### Platter
+
