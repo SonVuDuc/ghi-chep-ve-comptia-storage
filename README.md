@@ -3,9 +3,9 @@
 ## 2. Storage Device
 
 Có 3 hình thức lưu trữ:
-  * Disk drive: ổ đĩa cơ học
-  * Solid-state drive: ổ đĩa thể rắn
-  * Tape drive: ổ băng
+ * Disk drive: ổ đĩa cơ học
+ * Solid-state drive: ổ đĩa thể rắn  
+ * Tape drive: ổ băng
 
 Disk, solid-state và tape đều thuộc kiểu **persistent storage** hay **nonvolatile**, tức là dữ liệu không bị mất đi khi ta dừng cấp điện cho chúng.
 
@@ -13,4 +13,9 @@ Disk, solid-state và tape đều thuộc kiểu **persistent storage** hay **no
 
 #### The Anatomy of a Disk Drive
 
+Ổ đĩa cơ học bao gồm 4 thành phần chính:
+ * Platter
+ * Read/write heads
+ * Actuator assembly
+ * Spindle motor
 
