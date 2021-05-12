@@ -3,6 +3,6 @@
 ## 2. Storage Device
 
 Có 3 hình thức lưu trữ:
-  +)  Disk drive
-  +)  Solid-state drive
-  +)  Tape drive
+  * Disk drive
+  * Solid-state drive
+  * Tape drive
