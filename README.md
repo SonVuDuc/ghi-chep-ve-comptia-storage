@@ -23,7 +23,7 @@ Disk, solid-state và tape đều thuộc kiểu **persistent storage** hay **no
 
 #### Platter
 
-Còn được gọi là đĩa từ, đây là nơi mà dữ liệu được lưu trữ. Có hình dạng giống đĩa DVD. Hầu hết ổ cứng cơ thường có nhiều lớp đĩa từ.
+Còn được gọi là đĩa từ, cấu tạo bằng nhôm hoặc thuỷ tinh, bề mặt được phủ một lớp vật liệu từ tính. Đây là nơi mà dữ liệu được lưu trữ. Có hình dạng giống đĩa DVD. Hầu hết ổ cứng cơ thường có nhiều lớp đĩa từ.
 
 ![image](https://user-images.githubusercontent.com/32956424/117912489-d6843c00-b309-11eb-951a-aa9f5896537e.png)
 
