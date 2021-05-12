@@ -1,0 +1,1 @@
+# ghi-chep-ve-comptia-storage
