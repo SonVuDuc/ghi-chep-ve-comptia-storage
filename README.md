@@ -39,11 +39,9 @@ Track trên ổ đĩa không hề cố định từ nhà sản xuất, chúng c�
 
 ##### Sector
 
-Trên track chia thành những phần nhỏ gọi là sector.
+Trên track chia thành những phần nhỏ gọi là sector. Sector là đơn vị nhỏ nhất được chia ra để chứa dữ liệu.
 
-Sector là đơn vị nhỏ nhất được chia ra để chứa dữ liệu. Số lượng sector trên mỗi track là khác nhau từ vùng rìa đến tâm đĩa.
-
-Sector nằm gần rìa của đĩa sẽ chứa nhiều dữ liệu hơn
+Số lượng sector trên mỗi track là khác nhau từ vùng rìa đến tâm đĩa. Sector nằm gần rìa của đĩa sẽ chứa nhiều dữ liệu hơn
 
 ##### Cluster
 
@@ -81,7 +79,10 @@ Mặc dù đầu đọc ghi nằm trên đĩa từ nhưng không hề tiếp xú
 
 ##### Reading and Writing to the Platter
 
-Đầu đọc ghi đảm nhận vai trò đọc ghi dữ liệu vào đĩa từ, thông qua khả năng thay đổi hướng từ tính của từng bit trên sector và track.
+Đầu đọc ghi đảm nhận vai trò đọc ghi dữ liệu vào đĩa từ, thông qua khả năng thay đổi hướng từ tính của từng bit trên sector và track. 
+Khi tiến hành ghi dữ liệu
+
+![image](https://user-images.githubusercontent.com/32956424/118077901-444e6780-b3df-11eb-9e77-b349cc39dfa6.png)
 
 
 
