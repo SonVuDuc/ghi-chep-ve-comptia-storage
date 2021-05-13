@@ -29,7 +29,7 @@ Hầu hết ổ cứng cơ thường có nhiều lớp đĩa từ.
 
 ![image](https://user-images.githubusercontent.com/32956424/117912489-d6843c00-b309-11eb-951a-aa9f5896537e.png)
 
-Các đĩa từ đồng trục và quay cùng tốc độ với nhau. Dữ liệu được đọc/ghi trên bề mặt đĩa (gồm mặt trên và mặt dưới), thông qua **Read/Write heads** - điều khiển bởi **actuator assembly**
+Các đĩa từ đồng trục và quay cùng tốc độ với nhau. Dữ liệu được đọc/ghi trên bề mặt đĩa (gồm mặt trên và mặt dưới), thông qua **Read/Write heads** 
 
 #### Read/Write heads
 
@@ -46,6 +46,10 @@ Số lượng đầu đọc ghi luôn bằng số mặt hoạt động được 
 Độ cao bay được đo bằng nanomet.
 
 ![image](https://user-images.githubusercontent.com/32956424/118072240-9093aa80-b3d3-11eb-89d2-4864de0c3b79.png)
+
+Vị trí của đầu đọc ghi phải cực kỳ chính xác đối với từng sector trên đĩa.
+
+Nếu đầu đọc ghi nằm ở sai vị trí, dữ liệu sẽ bị đọc ghi sai chỗ, dẫn đến data corruption (hư hỏng dữ liệu)
 
 
 
