@@ -33,7 +33,10 @@ Các đĩa từ đồng trục và quay cùng tốc độ với nhau. Dữ liệ
 
 #### Read/Write heads
 
-Còn được gọi là đầu đọc ghi,
+Còn được gọi là đầu đọc ghi, là một bộ phận nằm trên bề mặt đĩa từ, đảm nhận vai trò đọc ghi dữ liệu. Đầu đọc ghi được gắn vào **actuator assembly** và được điều khiển bởi firmware.
+Đầu đọc có công dụng đọc dữ liệu dưới dạng từ hoá trên bề mặt đĩa hoặc từ hoá lên mặt đĩa để ghi dữ liệu
+Số lượng đầu đọc ghi luôn bằng số mặt hoạt động được của đĩa.
 
+##### Flying Height
 
 
