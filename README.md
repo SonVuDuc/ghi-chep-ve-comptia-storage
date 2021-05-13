@@ -1,17 +1,17 @@
 # Một số ghi chép về Networking CompTIA Storage+
 
-# 2. Storage Device
+# 2. Storage Device - Thiết bị lưu trữ 
 
-Có 3 hình thức lưu trữ:
+Có 3 hình thức của lưu trữ:
  * **Disk drive**: ổ đĩa cơ học
  * **Solid-state drive**: ổ đĩa thể rắn  
  * **Tape drive**: ổ băng
 
 Disk, solid-state và tape đều thuộc kiểu **persistent storage** hay **nonvolatile**, tức là dữ liệu không bị mất đi khi ta dừng cấp điện cho chúng.
 
-## The Mechanical Disk Drive
+## 2.1. The Mechanical Disk Drive - Ổ đĩa cơ học
 
-### The Anatomy of a Disk Drive
+### 2.1.1. The Anatomy of a Disk Drive - Cấu tạo ổ đĩa cơ học
 
 Ổ đĩa cơ học bao gồm 4 thành phần chính:
  * Platter
@@ -31,9 +31,25 @@ Hầu hết ổ cứng cơ thường có nhiều lớp đĩa từ.
 
 Các đĩa từ đồng trục và quay cùng tốc độ với nhau. Dữ liệu được đọc/ghi trên bề mặt đĩa (gồm mặt trên và mặt dưới), thông qua **Read/Write heads** 
 
+##### Track
+
+Trên bề mặt đĩa từ được chia thành nhiều vòng tròn đồng tâm, gọi là các track
+
+Track trên ổ đĩa không hề cố định từ nhà sản xuất, chúng có thể bị thay đổi khi format.
+
+##### Sector
+
+
+
+##### Cylinder
+
+
+
+![image](https://user-images.githubusercontent.com/32956424/118074254-c175de80-b3d7-11eb-8c2d-625ec9468358.png)
+
 #### Read/Write heads
 
-Còn được gọi là đầu đọc ghi, là một bộ phận nằm trên bề mặt đĩa từ, đảm nhận vai trò đọc ghi dữ liệu. Đầu đọc ghi được gắn vào **actuator assembly** và được điều khiển bởi firmware.
+Còn được gọi là đầu đọc ghi, là một bộ phận nằm trên bề mặt đĩa từ, có khả năng thay đổi từ tính của đĩa để đọc ghi dữ liệu. Đầu đọc ghi được gắn vào **actuator assembly** và được điều khiển bởi firmware.
 
 Đầu đọc có công dụng đọc dữ liệu dưới dạng từ hoá trên bề mặt đĩa hoặc từ hoá lên mặt đĩa để ghi dữ liệu
 
@@ -51,8 +67,13 @@ Vị trí của đầu đọc ghi phải cực kỳ chính xác đối với t�
 
 Nếu đầu đọc ghi nằm ở sai vị trí, dữ liệu sẽ bị đọc ghi sai chỗ, dẫn đến data corruption (hư hỏng dữ liệu)
 
+##### Head Crashes
 
+Mặc dù đầu đọc ghi nằm trên đĩa từ nhưng không hề tiếp xúc với bề mặt đĩa, nếu đầu đọc ghi không may tiếp xúc với bề mặt đĩa, nó sẽ gây ra hiện tượng **Head crashes** - làm hỏng ổ cứng và khả năng từ tính của ổ, dẫn đến dữ liệu không thể truy cập được
 
+##### Reading and Writing to the Platter
+
+Đầu đọc ghi đảm nhận vai trò đọc ghi dữ liệu vào đĩa từ, thông qua khả năng thay đổi hướng từ tính của từng bit trên sector và track.
 
 
 
