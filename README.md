@@ -80,7 +80,8 @@ Mặc dù đầu đọc ghi nằm trên đĩa từ nhưng không hề tiếp xú
 ##### Reading and Writing to the Platter
 
 Đầu đọc ghi đảm nhận vai trò đọc ghi dữ liệu vào đĩa từ, thông qua khả năng thay đổi hướng từ tính của từng bit trên sector và track. 
-Khi tiến hành ghi dữ liệu
+
+Khi tiến hành ghi dữ liệu, đầu đọc ghi 
 
 ![image](https://user-images.githubusercontent.com/32956424/118077901-444e6780-b3df-11eb-9e77-b349cc39dfa6.png)
 
