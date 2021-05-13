@@ -41,4 +41,41 @@ Số lượng đầu đọc ghi luôn bằng số mặt hoạt động được 
 
 ##### Flying Height
 
+Đầu đọc ghi không thực sự nằm trên bề mặt đĩa từ, mà nằm phía trên đĩa từ một khoảng gọi là **Flying height** (độ cao bay).
+
+Độ cao bay được đo bằng nanomet.
+
+![image](https://user-images.githubusercontent.com/32956424/118072240-9093aa80-b3d3-11eb-89d2-4864de0c3b79.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
