@@ -39,11 +39,19 @@ Track trên ổ đĩa không hề cố định từ nhà sản xuất, chúng c�
 
 ##### Sector
 
+Trên track chia thành những phần nhỏ gọi là sector.
 
+Sector là đơn vị nhỏ nhất được chia ra để chứa dữ liệu. Số lượng sector trên mỗi track là khác nhau từ vùng rìa đến tâm đĩa.
+
+Sector nằm gần rìa của đĩa sẽ chứa nhiều dữ liệu hơn
+
+##### Cluster
+
+Là tập hợp các sector nằm liền kề nhau
 
 ##### Cylinder
 
-
+Tập hợp các track có dùng bán kính ở các đĩa khác nhau được gọi là cylinder. Một ổ đĩa có nhiều cylinder do có nhiều track
 
 ![image](https://user-images.githubusercontent.com/32956424/118074254-c175de80-b3d7-11eb-8c2d-625ec9468358.png)
 
