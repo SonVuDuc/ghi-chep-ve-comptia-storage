@@ -81,9 +81,23 @@ Mặc dù đầu đọc ghi nằm trên đĩa từ nhưng không hề tiếp xú
 
 Đầu đọc ghi đảm nhận vai trò đọc ghi dữ liệu vào đĩa từ, thông qua khả năng thay đổi hướng từ tính của từng bit trên sector và track. 
 
-Khi tiến hành ghi dữ liệu, đầu đọc ghi 
+Khi tiến hành ghi dữ liệu, đầu đọc ghi sẽ 
+
+Ngược lại, khi đọc dữ liệu, đầu đọc ghi sẽ 
 
 ![image](https://user-images.githubusercontent.com/32956424/118077901-444e6780-b3df-11eb-9e77-b349cc39dfa6.png)
+
+##### Heads and Internal Drive Addressing
+
+Trên bề mặt các đĩa từ đều có đầu đọc ghi của riêng nó, kể cả mặt trên và mặt dưới. Do đó số đầu đọc ghi luôn nhiều hơn số đĩa từ
+
+Ví dụ dưới đây là với 3 đĩa từ, thì sẽ có 6 đầu đọc ghi tương đương với từng mặt đĩa
+
+![image](https://user-images.githubusercontent.com/32956424/118611557-2b7ef100-b7e7-11eb-8253-7e6d04c730d0.png)
+
+Nội dung mục này nói về cơ chế đánh địa chỉ cylinder-head-sector (CHS).
+
+
 
 
 
