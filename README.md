@@ -119,7 +119,11 @@ Do đó, để tối ưu không gian lưu trữ và tránh lãng phí, một k�
 
 ![image](https://user-images.githubusercontent.com/32956424/118769435-5da55700-b8aa-11eb-8ab1-78534a25a5e7.png)
 
-Ví dụ ở trên là đĩa được chia thành 3 zone: đỏ, xanh lá và trắng. Số lượng sector mỗi zone khác nhau và kích thước sector ở các zone cũng khác nhau
+Ví dụ ở trên là đĩa được chia thành 3 zone: đỏ, xanh lá và trắng. Số lượng sector mỗi zone khác nhau và kích thước sector ở các zone cũng khác nhau.
+
+### Cylinders
+
+<...chưa viết tiếp...>
 
 
 
