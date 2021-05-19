@@ -115,7 +115,11 @@ Sector là đơn vị lưu trữ thông tin nhỏ nhất trong ổ đĩa, có k�
 
 Trước đây, số lượng sector trên mỗi track là giống nhau, tuy nhiên, kích thước vật lý mỗi sector càng nhỏ dần khi ở gần tâm đĩa, mà mỗi sector chỉ có thể lưu trữ 512 bytes, dẫn đến những sector ở phía ngoài bị lãng phí không gian lưu trữ.
 
-Do đó, để tối ưu không gian lưu trữ và tránh lãng phí, một kỹ thuật gọi là Zoned Data Recoding (ZDR) đã ra đời. Hầu hết các ổ đĩa hiện này đều sử dụng công nghệ này.
+Do đó, để tối ưu không gian lưu trữ và tránh lãng phí, một kỹ thuật gọi là Zoned Data Recording (ZDR) đã ra đời. Hầu hết các ổ đĩa hiện này đều sử dụng công nghệ này. Là phương pháp tăng không gian lưu trữ của đĩa bằng các tăng số lượng sector trên các tracks bên ngoài, chia toàn bộ đĩa thành các zone khác nhau, các track cùng zone sẽ có lượng sector giống nhau, các tracks nằm ở gần tâm sẽ có ít sector hơn tracks ở ngoài.
+
+![image](https://user-images.githubusercontent.com/32956424/118769435-5da55700-b8aa-11eb-8ab1-78534a25a5e7.png)
+
+Ví dụ ở trên là đĩa được chia thành 3 zone: đỏ, xanh lá và trắng. Số lượng sector mỗi zone khác nhau và kích thước sector ở các zone cũng khác nhau
 
 
 
