@@ -95,7 +95,14 @@ Ví dụ dưới đây là với 3 đĩa từ, thì sẽ có 6 đầu đọc ghi
 
 ![image](https://user-images.githubusercontent.com/32956424/118611557-2b7ef100-b7e7-11eb-8253-7e6d04c730d0.png)
 
-Nội dung mục này nói về cơ chế đánh địa chỉ cylinder-head-sector (CHS).
+Nội dung mục này nói về cơ chế đánh địa chỉ cylinder-head-sector (CHS). Để đánh địa chỉ cho từng vùng trong ổ đĩa, cần phải xác định cylinder number, head number và sector number.
+
+Cylinder number cho biết số track, head number cho biết bề mặt nào của đĩa từ và sector number cho biết vị trí sector trên track
+
+Ví dụ trong hình là cylinder 512, head 0 và sector 33
+
+![image](https://user-images.githubusercontent.com/32956424/118745849-4bfb8980-b881-11eb-9562-2cc035da8823.png)
+
 
 
 
