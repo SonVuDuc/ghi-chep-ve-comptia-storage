@@ -111,7 +111,13 @@ Trên bề mặt của tất cả đĩa từ đều được chia thành tracks 
 
 Trên bề mặt đĩa có nhiều tracks, chúng là những vòng tròn đồng tâm. Mỗi track được chia thành nhiều sector. 
 
-Sector là đơn vị lưu trữ thông tin nhỏ nhất trong ổ đĩa, có kích thước 512 bytes mỗi sector. Giả sức nếu cần ghi 256 bytes, thì sẽ chỉ cần một sector để ghi 256 bytes đó, dung lượng còn lại sẽ bị bỏ phí. Tương tự, nếu cần ghi 1024 bytes thì sẽ cần 4 sector...
+Sector là đơn vị lưu trữ thông tin nhỏ nhất trong ổ đĩa, có kích thước 512 bytes mỗi sector. Giả sử nếu cần ghi 256 bytes, thì sẽ chỉ cần một sector để ghi 256 bytes đó, dung lượng còn lại sẽ bị bỏ phí. Tương tự, nếu cần ghi 1024 bytes thì sẽ cần 4 sector...
+
+Trước đây, số lượng sector trên mỗi track là giống nhau, tuy nhiên, kích thước vật lý mỗi sector càng nhỏ dần khi ở gần tâm đĩa, mà mỗi sector chỉ có thể lưu trữ 512 bytes, dẫn đến những sector ở phía ngoài bị lãng phí không gian lưu trữ.
+
+Do đó, để tối ưu không gian lưu trữ và tránh lãng phí, một kỹ thuật gọi là Zoned Data Recoding (ZDR) đã ra đời. Hầu hết các ổ đĩa hiện này đều sử dụng công nghệ này.
+
+
 
 
 
