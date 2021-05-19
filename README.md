@@ -109,7 +109,14 @@ Trên bề mặt của tất cả đĩa từ đều được chia thành tracks 
 
 ![image](https://user-images.githubusercontent.com/32956424/118746524-9c271b80-b882-11eb-8b50-b5fd6b383ca9.png)
 
-Trên bề mặt đĩa có nhiều tracks, chúng là những vòng tròn đồng tâm. Mỗi track được chia thành nhiều sector
+Trên bề mặt đĩa có nhiều tracks, chúng là những vòng tròn đồng tâm. Mỗi track được chia thành nhiều sector. 
+
+Sector là đơn vị lưu trữ thông tin nhỏ nhất trong ổ đĩa, có kích thước 512 bytes mỗi sector. Giả sức nếu cần ghi 256 bytes, thì sẽ chỉ cần một sector để ghi 256 bytes đó, dung lượng còn lại sẽ bị bỏ phí. Tương tự, nếu cần ghi 1024 bytes thì sẽ cần 4 sector...
+
+
+
+
+
 
 
 
